@@ -1,7 +1,9 @@
 :root {
     --main-color: #212121
 }
-
+a {
+    text-decoration: none;
+}
 body {
     background-color: #E5E5E5;
     color: var(--main-color);
