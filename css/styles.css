@@ -1,11 +1,14 @@
 :root {
     --main-color: #212121
+    --second-color: #757575
+    --accent-color: #2196F3
+    --background-color: #E5E5E5
 }
 a {
     text-decoration: none;
 }
 body {
-    background-color: #E5E5E5;
+    background-color: var(--background-color);
     color: var(--main-color);
     font-family: 'Roboto' sans-serif;
     font-style: normal;
@@ -25,5 +28,5 @@ body {
     font-size: 24px;
 }
 .logo span {
-    color: #2196F3;
+    color: var(--accent-color);
 }
