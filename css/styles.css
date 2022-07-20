@@ -1,21 +1,32 @@
 :root {
-    --main-color: #212121
-    --second-color: #757575
-    --accent-color: #2196F3
-    --background-color: #E5E5E5
+    --main-color: #212121;
+    --second-color: #757575;
+    --accent-color: #2196F3;
+    --background-color: #E5E5E5;
 }
-a {
-    text-decoration: none;
-}
+
 body {
     background-color: var(--background-color);
     color: var(--main-color);
     font-family: 'Roboto' sans-serif;
     font-style: normal;
 }
-
+a {
+    text-decoration: none;
+}
 .list {
     list-style: none;
+}
+.header{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    font-size: 14px;
+
+    background-color: #FFFFFF;
 }
 .header-logo {
     position: absolute;
@@ -25,8 +36,8 @@ body {
     top: 24px;
         
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 26px;
 }
-.logo span {
+.header-logo span {
     color: var(--accent-color);
 }
