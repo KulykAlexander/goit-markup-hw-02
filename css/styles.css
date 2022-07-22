@@ -5,6 +5,7 @@
     --background-color: #E5E5E5;
     --header-background-color: #FFFFFF;
     --hero-text: #ffffff;
+    --specialty-background-color: #F5F5F5;
     --footer-background-color: #2F303A;
     --footer-main-text: #ffffff;
     --footer-second-text: rgba(255, 255, 255, 0.6);
@@ -24,13 +25,21 @@ body {
 .btn {
     cursor: pointer;
 }
+.main-titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+}
 .titel {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
+    
     color: var(--main-color);
 }
 .text {
@@ -142,6 +151,19 @@ body {
 .hero-btn:focus {
     text-decoration: underline var(--accent-color);
 }
+
+/*specialty*/
+.specialty {
+    background-color: var(--specialty-background-color);
+}
+.specialty-list {
+}
+.specialty-titel {
+    text-transform: uppercase;
+}
+.specialty-text {
+}
+
 
 /*footer*/
 .footer {
