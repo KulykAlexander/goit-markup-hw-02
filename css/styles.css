@@ -3,6 +3,8 @@
     --second-color: #757575;
     --accent-color: #2196F3;
     --background-color: #E5E5E5;
+    --header-background-color: #FFFFFF;
+    --footer-background-color: #2F303A;
 }
 body {
     background-color: var(--background-color);
@@ -31,9 +33,7 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-.current {
-    color: var(--accent-color);
-}
+
 /*HEADER*/
 .header {
     font-size: 14px;
@@ -56,12 +56,30 @@ body {
     color: var(--accent-color);
     text-decoration: underline;
 }
-.main-nav {
+.main-nav-link {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: var(--main-color);
+}
+.main-nav-link:hover,
+.main-nav-link:focus {
+    text-decoration: underline;
+}
+.current {
+    color: var(--accent-color);
+}
+.conneсtion-nav-link {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--second-color);
+}
+.conneсtion-nav-link:hover,
+.conneсtion-nav-link:focus {
+    text-decoration: underline;
 }
 /*main*/
 
