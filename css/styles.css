@@ -5,6 +5,8 @@
     --background-color: #E5E5E5;
     --header-background-color: #FFFFFF;
     --footer-background-color: #2F303A;
+    --footer-main-text: #ffffff;
+    --footer-second-text: rgba(255, 255, 255, 0.6);
 }
 body {
     background-color: var(--background-color);
@@ -44,6 +46,9 @@ body {
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
     
     color: #000000;    
 }
@@ -85,3 +90,53 @@ body {
 
 
 /*footer*/
+.footer {
+    background-color: var(--footer-background-color);
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+    
+    color: var(--footer-main-text);    
+}
+.footer-logo span {
+    color: var(--accent-color);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    
+    text-decoration: underline var(--accent-color);
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  
+    letter-spacing: 0.03em;
+
+    color: var(--footer-main-text);
+}
+.address:hover,
+.address:focus {
+    text-decoration: underline var(--accent-color);
+}
+.footer-cont {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   
+    letter-spacing: 0.03em;
+
+    color: var(--footer-second-text);
+}
+.footer-cont:hover,
+.footer-cont:focus {
+    
+    text-decoration: underline var(--accent-color);
+}
